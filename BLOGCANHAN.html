@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fdffed;
+        }
+        .post {
+            background: rgb(246, 255, 208);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comments {
+            margin-top: 20px;
+        }
+        blockquote {
+            margin: 10px 0;
+            padding: 10px;
+            background: #ffffff;
+            border-left: 5px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Blog Cá Nhân</h1>
+
+    <div class="post">
+        <h2>Bài Viết 1</h2>
+        <small>Ngày: 2024-09-23 | Tác giả: Cúc Hoạ Mi</small>
+        <p>Nội dung bài viết 1...<br>Hà Nội ngày chớm Thu<br>
+
+            Gió vồn vã quanh em ngỏ lời thương nhớ<br>
+            
+            Tay trong tay dựa vào nơi Thu thở<br>
+            
+            Chợt mơn man rạo rực trái tim say</p>
+
+        <div class="comments">
+            <h3>Bình luận:</h3>
+            <blockquote>
+                <strong>Nguyễn Thị B</strong>: Bài viết rất hay!
+            </blockquote>
+            <blockquote>
+                <strong>Trần Văn C</strong>: Cảm ơn tác giả vì bài viết hữu ích.
+            </blockquote>
+        </div>
+
+        <form>
+            <h4>Thêm bình luận mới:</h4>
+            <label for="nam">Tên:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="comment">Nội dung bình luận:</label><br>
+            <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+            <input type="submit" value="Gửi bình luận">
+        </form>
+    </div>
+
+    <div class="post">
+        <h2>Bài Viết 2</h2>
+        <small>Ngày: 2024-09-20 | Tác giả: Quốc Phương</small>
+        <p>Nội dung bài viết 2...<br> Mùa thu Hà Nội mĩ miều<br>
+
+            Nhẹ rung hàng liễu gió chiều se se<br>
+            
+            Bên nhau trai gái sắc khoe<br>
+            
+            Tim hồng rạo rực lặng nghe ngỡ ngàng<br>
+            
+            Duyên tình thu đến mơ màng<br>
+            
+            Mùa thu Hà Nội nắng vàng khó quên.</p>
+
+        <div class="comments">
+            <h3>Bình luận:</h3>
+            <blockquote>
+                <strong>Phạm Văn E</strong>: Rất đồng ý với quan điểm của tác giả!
+            </blockquote>
+        </div>
+
+        <form>
+            <h4>Thêm bình luận mới:</h4>
+            <label for="name2">Tên:</label><br>
+            <input type="text" id="name2" name="name" required><br><br>
+            <label for="comment2">Nội dung bình luận:</label><br>
+            <textarea id="comment2" name="comment" rows="4" required></textarea><br><br>
+            <input type="submit" value="Gửi bình luận">
+        </form>
+    </div>
+
+</body>
+</html>
